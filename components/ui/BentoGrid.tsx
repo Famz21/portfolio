@@ -8,7 +8,10 @@ import { IoCopyOutline } from 'react-icons/io5';
 import MagicButton from '../MagicButton';
 import dynamic from 'next/dynamic';
 
-const Lottie = dynamic(() => import('react-lottie'), { ssr: false });
+const Lottie = dynamic(() => import('react-lottie'), { 
+  ssr: false,
+  loading: () => <div>Loading...</div>
+});
 
 export const BentoGrid = ({
   className,
@@ -152,11 +155,21 @@ export const BentoGridItem = ({
               <div className={`absolute -bottom-5 right-0`}>
                 {copied && (
                   <Lottie 
-                    options={defaultOptions}
+                    options={{
+                      ...defaultOptions,
+                      autoplay: true,
+                      loop: false,
+                      animationData: animationData,
+                      rendererSettings: {
+                        preserveAspectRatio: "xMidYMid slice"
+                      }
+                    }}
                     height={200}
                     width={400}
-                    isStopped={!copied}
+                    isStopped={false}
+                    isPaused={false}
                     isClickToPauseDisabled={true}
+                    eventListeners={[]}
                   />
                 )}
               </div>
