@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building AI Medical Q&A Agentic RAG",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,132 +72,189 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Khmer Speech Recognition",
+    des: "Upload an audio file or record your voice to get the transcription in Khmer-English.",
+    img: "/Khmer ASR.webp",
+    iconLists: [
+      "PyTorch_logo_icon.svg",
+      "/hf-logo.svg",
+      "/icons8-python.svg",
+      "/gradio.svg",
+    ],
+    link: "https://huggingface.co/spaces/Vira21/Whisper-Small-Khmer", // Correct link
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Legal AI Risk Management",
+    des: "Created an AI Risk Chatbot to educate 50 teams on AI risks, ethics, and mitigation, fostering responsible AI adoption and cross-team collaboration.",
+    img: "/RAG Application.png",
+    iconLists: [
+      "/logos--qdrant.svg",
+      "/langchain-color (1).svg",
+      "/openai-svgrepo-com.svg",
+      "/chainlit.svg",
+      "/hf-logo.svg",
+    ],
+    link: "https://github.com/Famz21/Legal-AI-Risk-Management", // Correct link
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "AI Data Analysis : Text-to-SQL",
+    des: "Built an AI tool using dynamic databases for text-to-SQL and text-to-chart outputs, enabling quick insights and efficient data visualization.",
+    img: "/Text-toSQL.webp",
+    iconLists: [
+      "/logos--qdrant.svg",
+      "/openai-svgrepo-com.svg",
+      "/chainlit.svg",
+      "/icons8-python.svg",
+      "/postgresql-logo-svgrepo-com.svg",
+    ],
+    link: "https://github.com/Famz21/AI-Data-Analysis-", // Fixed: Absolute URL
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "AI Medical Q&A Agentic RAG",
+    des: "Developed a medical Q&A app with Gemini, Next.js, Pinecone, and Shadcn/ui, leveraging RAG to analyze medical reports and deliver personalized healthcare insights.",
+    img: "/AI Medical.webp",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/langchain-color (1).svg",
+      "/Google_Gemini_logo.svg",
+    ],
+    link: "https://github.com/Famz21/AI-Medical-Agentic-RAG-System", // Fixed: Absolute URL
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
+export const testimonials = [];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Python",
+    img: "/icons8-python.svg", // Replace with the path to Python logo
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "PyTorch",
+    img: "/PyTorch_logo_icon.svg", // Replace with the path to PyTorch logo
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "Hugging Face",
+    img: "/hf-logo.svg", // Replace with the path to Hugging Face logo
   },
   {
     id: 5,
-    name: "docker.",
+    name: "Docker",
     img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+  },
+  {
+    id: 6,
+    name: "OpenAI",
+    img: "/openai-svgrepo-com.svg", // Replace with the path to OpenAI logo
+  },
+  {
+    id: 7,
+    name: "Next.js",
+    img: "/next.svg", // Replace with the path to MLflow logo
+  },
+  {
+    id: 11,
+    name: "AWS",
+    img: "/AWS.svg", // Replace with the path to AWS logo
+  },
+  {
+    id: 12,
+    name: "Power BI",
+    img: "/powerbi.png", // Replace with the path to Power BI logo
+  },
+  {
+    id: 15,
+    name: "Git",
+    img: "/git.png", // Replace with the path to Apache Airflow logo
+  },
+  {
+    id: 16,
+    name: "Postgres",
+    img: "/postgres.png", // Replace with the path to Apache Kafka logo
+  },
+  {
+    id: 19,
+    name: "FastAPI",
+    img: "/fastapi.png", // Replace with the path to Ansible logo
+  },
+  {
+    id: 20,
+    name: "Kubernetes",
+    img: "/Kubernetes.svg", // Replace with the path to Kubernetes logo
+  },
+  {
+    id: 21,
+    name: "Type Script",
+    img: "/ts.svg", // Replace with the path to Jenkins logo
+  },
+  {
+    id: 22,
+    name: "Tailwind css",
+    img: "/tail.svg", // Replace with the path to NGINX logo
+  },
+  {
+    id: 23,
+    name: "Langchain",
+    img: "/langchain-color (1).svg", // Replace with the path to Flutter logo
+  },
+  {
+    id: 24,
+    name: "MLFLOW",
+    img: "/mlflow.svg", // Replace with the path to Vue.js logo
+  },
+  {
+    id: 25,
+    name: "QDrant",
+    img: "/logos--qdrant.svg", // Replace with the path to Laravel logo
+  },
+  {
+    id: 26,
+    name: "Azure",
+    img: "/Azure.svg", // Replace with the path to Node.js logo
+  },
+  {
+    id: 27,
+    name: "Chainlit",
+    img: "/chainlit.svg",
+  },
+  {
+    id: 28,
+    name: "Gradio",
+    img: "/gradio.svg",
+  },
+  {
+    id: 29,
+    name: "Jenkins",
+    img: "/Jenkins.svg",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "AI Engineer",
+    desc: "Hands-on experience in building AI agentic systems, specializing in developing AI-driven solutions for data analysis, speech recognition, and machine learning. Focused on creating tools that enable efficient data visualization, accurate speech-to-text conversion, and precise forecasting models.",
+    company: "DataTicon",
+    duration: "02/2024-Present", // Current experience
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/DataTicon.png",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Data Specialist",
+    desc: "Specialized in data warehousing, AI-powered sales analysis, and hazard vulnerability analysis. Built tools for data transformation, sales forecasting, and risk assessment.",
+    company: "DataU Academy",
+    duration: "08/2023 - 01/2024", // Past experience
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/DataU_Academy.png",
   },
 ];
 
@@ -205,13 +262,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Famz21",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://huggingface.co/Vira21",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/rithyvira/",
   },
 ];
