@@ -14,6 +14,15 @@ const Education = () => {
         "Specialized in data analysis, machine learning, and applied mathematics.",
       logo: "/ITC logo.png", // Replace with the path to your ITC logo
     },
+    {
+      id: 2,
+      institution: "DataU Academy",
+      degree: "Data Specialist Trainee",
+      year: "2023 - 2024",
+      description:
+        "Intensive training in data analytics, visualization, and practical data science applications.",
+      logo: "/DataU_Academy.png", // You'll need to add the DataU logo to your public folder
+    },
     // Add more education entries if needed
   ];
 

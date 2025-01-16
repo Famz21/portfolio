@@ -4,7 +4,7 @@ import { BackgroundGradientAnimation } from './GradientBg';
 import GridGlobe from './GridGlobe';
 import { useState } from 'react';
 import animationData from "@/data/confetti.json";
-import { IoCopyOutline } from 'react-icons/io5';
+import { HiDownload } from 'react-icons/hi';
 import MagicButton from '../MagicButton';
 import dynamic from 'next/dynamic';
 
@@ -64,11 +64,14 @@ export const BentoGridItem = ({
     },
   };
 
-  const handleCopy = () => {
-    const text = "rithyvira021@gmail.com";
-    navigator.clipboard.writeText(text);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 3000);
+  const handleDownload = () => {
+    const cvUrl = '/RITHY_VIRA_CV.pdf';
+    const link = document.createElement('a');
+    link.href = cvUrl;
+    link.download = 'RithyVira-CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
@@ -155,15 +158,7 @@ export const BentoGridItem = ({
               <div className={`absolute -bottom-5 right-0`}>
                 {copied && (
                   <Lottie 
-                    options={{
-                      ...defaultOptions,
-                      autoplay: true,
-                      loop: false,
-                      animationData: animationData,
-                      rendererSettings: {
-                        preserveAspectRatio: "xMidYMid slice"
-                      }
-                    }}
+                    options={{...defaultOptions}}
                     height={200}
                     width={400}
                     isStopped={false}
@@ -175,12 +170,12 @@ export const BentoGridItem = ({
               </div>
 
               <MagicButton
-                title={copied ? 'Email is Copied!' : 'Copy my email address'}
-                icon={<IoCopyOutline />}
+                title="Download my CV"
+                icon={<HiDownload />}
                 position='left'
-                handleClick={handleCopy}
+                handleClick={handleDownload}
                 otherClasses='!bg-[#161A31]'
-                isDisabled={copied}
+                isDisabled={false}
               />
             </div>
           )}
