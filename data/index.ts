@@ -125,6 +125,36 @@ export const projects = [
     ],
     link: "https://github.com/Famz21/AI-Medical-Agentic-RAG-System", // Fixed: Absolute URL
   },
+  {
+  id: 4,
+  title: "Multi-Agent RAG Marketing Content Enhancer",
+  des: "The Multi-Agent RAG platform drafts, edits, cites, and adapts, ensuring accurate content with future visual and scalable features.",
+  img: "/Multi-Agent RAG Marketing Content Enhancer.webp", // Ensure you have this image in your public folder
+  link: "https://github.com/Famz21/Agentic-Marketing-Content-Enhancer",
+  iconLists: [
+    "/langchain-color (1).svg", // Ensure these icons are in your public folder
+    "/chainlit.svg",
+    "/icons8-python.svg",
+    "/hf-logo.svg",
+    "/openai-svgrepo-com.svg",
+    "/logos--qdrant.svg"
+  ],
+},
+{
+  id: 5,
+  title: "AI-Driven Threat Detection",
+  des: "MLOps-based network security model detects threats (intrusions, malware, anomalies). Uses MLFlow, Dagshub, GitHub Actions, Docker, and AWS for scalable, automated deployment and real-time analysis.",
+  img: "/MLOps.png", // Ensure you have this image in your public folder
+  link: "https://github.com/Famz21/SecuMLOps-AI-Driven-Threat-Detection",
+  iconLists: [
+    "/icons8-python.svg",
+    "/AWS.svg",
+    "/dock.svg",
+    "/MongoDB.svg",
+    "/mlflow.svg",
+    "/GitHub Actions.svg"
+  ],
+},
 ];
 
 export const testimonials = [];
