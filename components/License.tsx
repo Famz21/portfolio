@@ -17,6 +17,16 @@ const Licenses = () => {
     {
       id: 2,
       title:
+        "Machine Learning Systems in Production",
+      issuer: "Machine Learning School",
+      description:
+        "Course on training, tuning, deploying, and monitoring ML models in production",
+      logo: "/mlschool_certificate.jpg", // Replace with the path to MITx logo
+      link: "https://www.ml.school/certificate?id=8tr1a3f935", // Add the link for this license
+    },
+    {
+      id: 3,
+      title:
         "Machine Learning with Python - From Linear Models to Deep Learning",
       issuer: "MITx MicroMasters",
       description:
@@ -25,7 +35,7 @@ const Licenses = () => {
       link: "https://courses.edx.org/certificates/43736bb627fb4928a38fab9225515a41", // Add the link for this license
     },
     {
-      id: 3,
+      id: 4,
       title: "IBM AI Engineering",
       issuer: "IBM",
       description:
@@ -34,13 +44,23 @@ const Licenses = () => {
       link: "https://www.credly.com/badges/2e690524-cb52-468d-8ef1-1d38a369a871", // Add the link for this license
     },
     {
-      id: 4,
+      id: 5,
       title: "Data Specialist Trainee",
       issuer: "DataU Academy",
       description:
         "Intensive Program in Data Science, Power BI, Data Warehousing.",
       logo: "/DataU.png", // Replace with the path to Maven logo
       link: "https://drive.google.com/file/d/1hIr4rAk0on6Sr2_Ob_jny3Q6h9ls-2Kj/view", // Add the link for this license
+    },
+    {
+      id: 6,
+      title:
+        "Data Analysis: Statistical Modeling and Computation in Applications",
+      issuer: "MITx MicroMasters",
+      description:
+        "Advanced course on statistical modeling, computational techniques, and data analysis applications using Python",
+      logo: "/MITx 6.419x Certificate.png", // Replace with the path to MITx logo
+      link: "https://courses.edx.org/certificates/0abaac28c079429f8235749dc8a7d3b8", // Add the link for this license
     },
     // Add more entries as needed
   ];
