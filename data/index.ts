@@ -268,15 +268,15 @@ export const companies = [
 ];
 
 export const workExperience = [
-  {
-    id: 1,
-    title: "MLOps & AI Engineer",
-    desc: "Part of the Innovation Department, building scalable AI and MLOps solutions to enhance digital banking. Work involves deploying machine learning models, integrating LLMs, and supporting AI infrastructure for next-gen financial services.",
-    company: "Wing",
-    duration: "07/2025-Present", // Current experience
-    className: "md:col-span-2",
-    thumbnail: "/wing_bank_logo.jpeg",
-  },
+  // {
+  //   id: 1,
+  //   title: "MLOps & AI Engineer",
+  //   desc: "Part of the Innovation Department, building scalable AI and MLOps solutions to enhance digital banking. Work involves deploying machine learning models, integrating LLMs, and supporting AI infrastructure for next-gen financial services.",
+  //   company: "Wing",
+  //   duration: "07/2025-Present", // Current experience
+  //   className: "md:col-span-2",
+  //   thumbnail: "/wing_bank_logo.jpeg",
+  // },
   {
     id: 2,
     title: "Freelance, AI & Full-Stack Developer",
