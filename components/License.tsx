@@ -27,12 +27,12 @@ const Licenses = () => {
     {
       id: 3,
       title:
-        "Machine Learning with Python - From Linear Models to Deep Learning",
-      issuer: "MITx MicroMasters",
+        "DevOps Engineering",
+      issuer: "SalaCyber",
       description:
-        "Advanced course covering linear models, deep learning, and machine learning techniques using Python.",
-      logo: "/MITx 6.86x - Certificate.png", // Replace with the path to MITx logo
-      link: "https://courses.edx.org/certificates/43736bb627fb4928a38fab9225515a41", // Add the link for this license
+        "Practical DevOps course focused on CI/CD, automation, infrastructure as code, and cloud deployment strategies.",
+      logo: "/devops_cert.png", // Replace with the path to MITx logo
+      link: "https://www.linkedin.com/in/rithyvira/overlay/1745857326240/single-media-viewer/?profileId=ACoAADxCQfgBnRdtalTGQ5LvQ_bPl6705TKpdgM", // Add the link for this license
     },
     {
       id: 4,

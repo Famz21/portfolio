@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building AI Medical Q&A Agentic RAG",
+    title: "Currently building App for Speech Recognition",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -270,15 +270,33 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
+    title: "MLOps & AI Engineer",
+    desc: "Part of the Innovation Department, building scalable AI and MLOps solutions to enhance digital banking. Work involves deploying machine learning models, integrating LLMs, and supporting AI infrastructure for next-gen financial services.",
+    company: "Wing",
+    duration: "07/2025-Present", // Current experience
+    className: "md:col-span-2",
+    thumbnail: "/wing_bank_logo.jpeg",
+  },
+  {
+    id: 2,
+    title: "Freelance, AI & Full-Stack Developer",
+    desc: "Built AI-powered systems for digital marketing automation and voice applications. Developed a full-stack email campaign dashboard and an n8n workflow for scraping, SEO reporting, and personalized email delivery.",
+    company: "ZTOA Group",
+    duration: "04/2025-06/2025", // Current experience
+    className: "md:col-span-2",
+    thumbnail: "/ztoa_logo.png",
+  },
+  {
+    id: 3,
     title: "AI Engineer",
     desc: "Hands-on experience in building AI agentic systems, specializing in developing AI-driven solutions for data analysis, speech recognition, and machine learning. Focused on creating tools that enable efficient data visualization, accurate speech-to-text conversion, and precise forecasting models.",
     company: "DataTicon",
-    duration: "02/2024-Present", // Current experience
+    duration: "02/2024-03/2025", 
     className: "md:col-span-2",
     thumbnail: "/DataTicon.png",
   },
   {
-    id: 2,
+    id: 4,
     title: "Data Specialist",
     desc: "Specialized in data warehousing, AI-powered sales analysis, and hazard vulnerability analysis. Built tools for data transformation, sales forecasting, and risk assessment.",
     company: "DataU Academy",
