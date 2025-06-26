@@ -291,19 +291,11 @@ export const workExperience = [
     title: "AI Engineer",
     desc: "Hands-on experience in building AI agentic systems, specializing in developing AI-driven solutions for data analysis, speech recognition, and machine learning. Focused on creating tools that enable efficient data visualization, accurate speech-to-text conversion, and precise forecasting models.",
     company: "DataTicon",
-    duration: "02/2024-03/2025", 
+    duration: "08/2023-03/2025", 
     className: "md:col-span-2",
     thumbnail: "/DataTicon.png",
   },
-  {
-    id: 4,
-    title: "Data Specialist",
-    desc: "Specialized in data warehousing, AI-powered sales analysis, and hazard vulnerability analysis. Built tools for data transformation, sales forecasting, and risk assessment.",
-    company: "DataU Academy",
-    duration: "08/2023 - 01/2024", // Past experience
-    className: "md:col-span-2",
-    thumbnail: "/DataU_Academy.png",
-  },
+ 
 ];
 
 export const socialMedia = [
