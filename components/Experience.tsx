@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <section id="experience" className="py-20 w-full">
       <h1 className="heading">
-        My <span className="text-purple">work experience</span>
+        My <span className="text-purple">Work Experiences</span>
       </h1>
 
       {/* Use flexbox to stack cards vertically */}

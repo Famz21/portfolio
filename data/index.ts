@@ -142,10 +142,10 @@ export const projects = [
 },
 {
   id: 5,
-  title: "AI-Driven Threat Detection",
+  title: "Smart Manufacturing Machine Prediction System",
   des: "MLOps-based network security model detects threats (intrusions, malware, anomalies). Uses MLFlow, Dagshub, GitHub Actions, Docker, and AWS for scalable, automated deployment and real-time analysis.",
   img: "/MLOps.png", // Ensure you have this image in your public folder
-  link: "https://github.com/Famz21/SecuMLOps-AI-Driven-Threat-Detection",
+  link: "https://github.com/Famz21/Smart-Manufacturing-Machine-Prediction-System",
   iconLists: [
     "/icons8-python.svg",
     "/AWS.svg",
@@ -268,15 +268,15 @@ export const companies = [
 ];
 
 export const workExperience = [
-  // {
-  //   id: 1,
-  //   title: "MLOps & AI Engineer",
-  //   desc: "Part of the Innovation Department, building scalable AI and MLOps solutions to enhance digital banking. Work involves deploying machine learning models, integrating LLMs, and supporting AI infrastructure for next-gen financial services.",
-  //   company: "Wing",
-  //   duration: "07/2025-Present", // Current experience
-  //   className: "md:col-span-2",
-  //   thumbnail: "/wing_bank_logo.jpeg",
-  // },
+  {
+    id: 1,
+    title: "MLOps & AI Engineer",
+    desc: "Part of the Innovation Department, building scalable AI and MLOps solutions to enhance digital banking. Work involves deploying machine learning models, integrating LLMs, and supporting AI infrastructure for next-gen financial services.",
+    company: "Wing",
+    duration: "07/2025-Present", // Current experience
+    className: "md:col-span-2",
+    thumbnail: "/wing_bank_logo.jpeg",
+  },
   {
     id: 2,
     title: "Freelance, AI & Full-Stack Developer",
