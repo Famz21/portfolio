@@ -291,7 +291,7 @@ export const workExperience = [
     title: "AI Engineer",
     desc: "Hands-on experience in building AI agentic systems, specializing in developing AI-driven solutions for data analysis, speech recognition, and machine learning. Focused on creating tools that enable efficient data visualization, accurate speech-to-text conversion, and precise forecasting models.",
     company: "DataTicon",
-    duration: "08/2023-03/2025", 
+    duration: "08/2023-06/2025", 
     className: "md:col-span-2",
     thumbnail: "/DataTicon.png",
   },
