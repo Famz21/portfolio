@@ -273,7 +273,9 @@ export const workExperience = [
     title: "MLOps & AI Engineer",
     desc: "Part of the Innovation Department, building scalable AI and MLOps solutions to enhance digital banking. Work involves deploying machine learning models, integrating LLMs, and supporting AI infrastructure for next-gen financial services.",
     company: "Wing",
-    duration: "07/2025-Present", // Current experience
+    companyDuration: "07/2025-Present", // Current experience
+    location: "Phnom Penh, Cambodia",
+    workType: "On-site",
     className: "md:col-span-2",
     thumbnail: "/wing_bank_logo.jpeg",
   },
@@ -282,18 +284,32 @@ export const workExperience = [
     title: "Freelance, AI & Full-Stack Developer",
     desc: "Built AI-powered systems for digital marketing automation and voice applications. Developed a full-stack email campaign dashboard and an n8n workflow for scraping, SEO reporting, and personalized email delivery.",
     company: "ZTOA Group",
-    duration: "04/2025-06/2025", // Current experience
+    companyDuration: "04/2025-06/2025", // Current experience
+    location: "Kowloon, Hong Kong",
+    workType: "Remote",
     className: "md:col-span-2",
     thumbnail: "/ztoa_logo.png",
   },
   {
     id: 3,
-    title: "AI Engineer",
-    desc: "Hands-on experience in building AI agentic systems, specializing in developing AI-driven solutions for data analysis, speech recognition, and machine learning. Focused on creating tools that enable efficient data visualization, accurate speech-to-text conversion, and precise forecasting models.",
     company: "DataTicon",
-    duration: "08/2023-06/2025", 
-    className: "md:col-span-2",
+    companyDuration: "08/2023-06/2025",
+    location: "Phnom Penh, Cambodia",
+    workType: "Hybrid",
     thumbnail: "/DataTicon.png",
+    className: "md:col-span-2",
+    roles: [
+      {
+        title: "AI Engineer",
+        duration: "02/2024-06/2025",
+        desc: "Hands-on experience in building AI agentic systems, specializing in developing AI-driven solutions for data analysis, speech recognition, and machine learning. Focused on creating tools that enable efficient data visualization, accurate speech-to-text conversion, and precise forecasting models."
+      },
+      {
+        title: "Data Specialist",
+        duration: "08/2023-01/2024",
+        desc: "Managed data pipelines and analytics workflows, performed data cleaning and preprocessing, and created visualizations to support business decision-making."
+      }
+    ]
   },
  
 ];
