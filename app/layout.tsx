@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/VIRA._WORK.jpeg" sizes="any" />
+        <link rel="icon" href="/VIRA_AI.jpg" sizes="any" />
       </head>
       <body className={inter.className}>
         <ThemeProvider

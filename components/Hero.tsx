@@ -44,7 +44,7 @@ const Hero = () => {
           {/* Add your photo here */}
           <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-purple-500 mb-8">
             <img
-              src="/VIRA._WORK.jpeg" // Replace with the path to your photo
+              src="/VIRA_AI.jpg" // Replace with the path to your photo
               alt="Vira Rithy"
               className="w-full h-full object-cover"
             />
